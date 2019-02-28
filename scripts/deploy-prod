@@ -1,0 +1,3 @@
+read -e -p "Really need to deploy to PROD? [y/n]: " choice; [[ "$choice" == [Yy]* ]] && \
+(run-test && gcloud functions deploy firebaseRequest --runtime python37 --trigger-http --project {{YOUR PROJECT NAME}}) || \
+echo "Bye"
