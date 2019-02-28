@@ -1,0 +1,6 @@
+rm -Rf ./__pycache__
+rm -Rf ./classes/__pycache__
+rm -Rf ./build
+rm -Rf ./dist
+rm -Rf ./firebase_function_python_skeleton.egg-info
+rm -Rf ./.mypy_cache
